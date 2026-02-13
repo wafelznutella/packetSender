@@ -1,0 +1,15 @@
+C:\Users\5letn\Packetsender\bin\Debug\net9.0\Packetsender.exe
+C:\Users\5letn\Packetsender\bin\Debug\net9.0\Packetsender.deps.json
+C:\Users\5letn\Packetsender\bin\Debug\net9.0\Packetsender.runtimeconfig.json
+C:\Users\5letn\Packetsender\bin\Debug\net9.0\Packetsender.dll
+C:\Users\5letn\Packetsender\bin\Debug\net9.0\Packetsender.pdb
+C:\Users\5letn\Packetsender\obj\Debug\net9.0\Packetsender.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\5letn\Packetsender\obj\Debug\net9.0\Packetsender.AssemblyInfoInputs.cache
+C:\Users\5letn\Packetsender\obj\Debug\net9.0\Packetsender.AssemblyInfo.cs
+C:\Users\5letn\Packetsender\obj\Debug\net9.0\Packetsender.csproj.CoreCompileInputs.cache
+C:\Users\5letn\Packetsender\obj\Debug\net9.0\Packetsender.sourcelink.json
+C:\Users\5letn\Packetsender\obj\Debug\net9.0\Packetsender.dll
+C:\Users\5letn\Packetsender\obj\Debug\net9.0\refint\Packetsender.dll
+C:\Users\5letn\Packetsender\obj\Debug\net9.0\Packetsender.pdb
+C:\Users\5letn\Packetsender\obj\Debug\net9.0\Packetsender.genruntimeconfig.cache
+C:\Users\5letn\Packetsender\obj\Debug\net9.0\ref\Packetsender.dll
