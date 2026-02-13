@@ -1,5 +1,5 @@
-﻿Packet packet = new Packet();
-bool gotPacketFromTechnik = false;
+Packet packet = new Packet();
+bool gotPacketFromHost = false;
 //placeholder
 string ip = "123.456.78.9";
 int port = 1212;
@@ -27,7 +27,7 @@ if(insertedUsername == username && insertedPassword == password)
         ip = Console.ReadLine();
         Console.WriteLine("Insert target port:");
         port = int.Parse(Console.ReadLine());
-        gotPacketFromTechnik = true;
+        gotPacketFromHost = true;
     }
     else if(option == 2)
     {
@@ -49,7 +49,7 @@ if(insertedUsername == username && insertedPassword == password)
 }
 
 
-if(gotPacketFromTechnik == true)
+if(gotPacketFromHost == true)
 {
     packet.Send(ip, port);
 }
