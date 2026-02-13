@@ -18,23 +18,24 @@ public class Packet
 
         try
         {
-            Debug.Log($"Oczekiwanie na pakiety na porcie {port}...");
+            Debug.Log($"Waiting for packages on port {port}...");
             
-            while (true) // Pętla nasłuchiwania
+            while (true)
             {
                 byte[] bytes = listener.Receive(ref groupEP);
                 string message = Encoding.UTF8.GetString(bytes);
 
-                Debug.Log($"Odebrano od {groupEP}: {message}");
+                Debug.Log($"Got packet from {groupEP}: {message}");
             }
         }
         catch (SocketException e)
         {
-            Debug.Log($"Błąd gniazda: {e.Message}");
+            Debug.Log($"Socket error: {e.Message}");
         }
         finally
         {
             listener.Close();
         }
     }
+
 }
