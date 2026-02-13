@@ -1,9 +1,9 @@
 public class Debug
 {
     //I don't know how to do this
-    public void log(string logtext)
+    public static void Log(string logtext)
     {
-        
+        Console.WriteLine($"LOGGER: {logtext}");
     }
     
 }

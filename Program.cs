@@ -1,5 +1,4 @@
-Packet packet = new Packet();
-bool gotPacketFromHost = false;
+﻿Packet packet = new Packet();
 //placeholder
 string ip = "123.456.78.9";
 int port = 1212;
@@ -23,16 +22,18 @@ if(insertedUsername == username && insertedPassword == password)
    if(option == 1)
     {
         Console.Clear();
-        Console.WriteLine("Insert target ip (temporary, will not do anything):");
+        Console.WriteLine("Insert target ip:");
         ip = Console.ReadLine();
         Console.WriteLine("Insert target port:");
         port = int.Parse(Console.ReadLine());
-        gotPacketFromHost = true;
+        Console.WriteLine("Insert data to send:");
+        string message = Console.ReadLine();
+        packet.Send(ip, port, message);
     }
     else if(option == 2)
     {
         Console.Clear();
-        Console.WriteLine("Insert source ip (temporary, will not do anything):");
+        Console.WriteLine("Insert source ip:");
         ip = Console.ReadLine();
         Console.WriteLine("Insert source port:");
         port = int.Parse(Console.ReadLine());
@@ -46,10 +47,4 @@ if(insertedUsername == username && insertedPassword == password)
     {
         Console.WriteLine("Invalid option");
     }
-}
-
-
-if(gotPacketFromHost == true)
-{
-    packet.Send(ip, port);
 }
